@@ -1,3 +1,5 @@
+import sympy as sp
+import numpy as np
 def estimate_rk4_error(f_func, order, x0, y0, h, x_end):
     """
     Estimate the global error for any order IVP using RK4 and Richardson Extrapolation.
